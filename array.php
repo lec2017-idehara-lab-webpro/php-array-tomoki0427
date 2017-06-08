@@ -13,9 +13,9 @@ $fruits = [
   'orange' => 'orange',
   'strawberry' => 'red',
 ];
-foreach($fruits as $c)
+print($fruits['orange']);
 {
-  print($c);
+  print('<hr/');
 }
 
 print('<hr \>');
@@ -25,11 +25,12 @@ print( $name[1] ); // MIKE
 
 print('<hr \>');
 
+print("<table border>");
 foreach($fruits as $f => $c)
 {
-  print("$f, $c");
+  print("<tr><td>$f<td>$c");
 }
-
+print("</table>")
  ?>
 
   </body>
